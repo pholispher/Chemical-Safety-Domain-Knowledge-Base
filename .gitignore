@@ -1,0 +1,25 @@
+# AutoDL system config
+autodl-tmp/.autodl/
+
+# Runtime data & generated artifacts (large, not tracked)
+autodl-tmp/chemical_kb/data/
+autodl-tmp/chemical_kb/logs/
+autodl-tmp/chemical_kb/models/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.ipynb_checkpoints/
+
+# Model weights / large binaries
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+
+# IDE
+.idea/
+.vscode/
