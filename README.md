@@ -1081,8 +1081,14 @@ Chemical Safety Intelligent Decision Support System
 
 ---
 
-## 19. License
+## Environment
 
-本项目当前用于科研学习、知识库构建实验和危险化学品安全领域技术验证。
+For GPU acceleration:
+
+pip install -r requirements_cuda.txt
+
+For CPU:
+
+pip install -r requirements.txt
 
 原始标准、法规和 PDF 文档的版权及使用范围以其原始发布机构和数据来源要求为准。仓库不直接分发受版权保护的模型权重和原始文档。
